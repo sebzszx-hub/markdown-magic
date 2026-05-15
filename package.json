@@ -1,0 +1,39 @@
+{
+  "name": "universal-to-markdown",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MarkdownMagic — Herramienta universal y amigable para convertir archivos a Markdown",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "json2md": "^2.0.2",
+    "lucide-react": "^0.460.0",
+    "mammoth": "^1.8.0",
+    "next": "14.2.18",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.3.5",
+    "sonner": "^1.7.0",
+    "tailwind-merge": "^2.5.4",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/json2md": "^1.5.4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/turndown": "^5.0.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.18",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5"
+  }
+}
